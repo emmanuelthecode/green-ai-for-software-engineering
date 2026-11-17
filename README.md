@@ -1,5 +1,7 @@
 # Green AI for Software Engineering
 
+[![tests](https://github.com/emmanuelthecode/green-ai-for-software-engineering/actions/workflows/tests.yml/badge.svg)](https://github.com/emmanuelthecode/green-ai-for-software-engineering/actions/workflows/tests.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 **A systematic survey of energy-efficient techniques for AI-driven code generation and maintenance, plus a small hands-on benchmark that measures them.**
 
 AI coding tools like Copilot, CodeBERT and CodeT5 are now part of normal development, but the models behind them use a lot of energy. Training them is expensive, and because a code assistant gets queried millions of times, inference can end up costing even more. For my Intelligent Software Engineering module I wrote a survey of the techniques that reduce that cost and the trade-offs each one makes.
